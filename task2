@@ -1,0 +1,28 @@
+# Calculater using  python programing
+number1=float(input("enter the first number: "))
+number2=float(input("enter the second number: "))
+operator=input("enter the operator(+,-,*,/,%,//,**): ")
+
+if operator=="+":
+    result=number1+number2
+    print(f"addition of two number is {round(result,2)}")
+elif operator=="-":
+    result=number1-number2
+    print(f"subtraction of two number is {result}")
+elif operator=="*":
+    result=number1*number2
+    print(f"multiplication of two number is {result}")
+elif operator=="/":
+    result=number1/number2
+    print(f"division of two number is {result}")
+elif operator=="%":
+    result=number1%number2
+    print(f"modulus of two number is {result}")
+elif operator=="//":
+    result=number1//number2
+    print(f"floor division of two number is {result}")
+elif operator=="**":
+    result=number1**number2
+    print(f"exponent of two number is {result}")
+else:
+    print("invalid operator")
